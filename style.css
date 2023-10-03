@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 170.7px);
+}
+
+.child1{
+    grid-area: 1/1/-1/3;
+    background-color: rgb(37, 123, 235);
+}
+
+.child2{
+    grid-area: 1/3/2/-1;
+}
+
+.child3{
+    grid-area: 2/3/-1/-1;
+}
+
+.kids{
+ display: grid;
+ grid-template-rows: repeat(17, 68.3px);
+ grid-template-columns: repeat(13, 1fr);
+ gap:   1px;
+ background-color: #d2dbe0;
+}
+
+svg{
+    height: 50px;
+    width: 20%;
+}
+.svgicon1{
+    fill: black;
+    width: 40px;
+    position: relative;
+    left: 6%;
+}
+
+input{
+    height: 30px;
+    width: 45%;
+    background-color:#d2dbe0;
+    border-radius: 15px;
+    border: #d9e3e9;
+    position: relative;
+    left: 8% ;
+}
+
+.svgicon2{
+    position: relative;
+    left:16% ;
+}
+.svgicon{
+    fill: white;
+}
+.icon{
+    display: block;
+    width: 60%;
+    color: #ffff;
+    padding: 4%  7% 0% 7% ;
+}
+
+.grand{
+    box-shadow: 2px 3px  3px  3px rgb(94, 88, 88);
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 3%;
+}
+
+.child01{
+    grid-area: 1/1/5/5;
+}
+
+.child02{
+    grid-area: 1/6/5/10;
+}
+
+.child03{
+    grid-area: 1/11/7/15;
+}
+
+.child04{
+    grid-area: 6/1/10/5;
+}
+
+.child05{
+    grid-area: 6/6/10/10;
+}
+
+.child06{
+    grid-area: 11/1/15/5;
+}
+
+.child07{
+    grid-area: 11/6/15/10;
+}
+
+
+.child08{
+    grid-area: 9/11/15/15;
+}
+
+.child3-div1-headings{
+    display: flex;
+    gap: 60%;
+    background-color: #d2dbe0;
+}
+
+.icon>p{
+    position: relative;
+    left: 40% ;
+    bottom: 40px;
+}
+
+.images{
+    width: 25%;
+    padding: 3px;
+}
+
+.dp{
+    border-radius: 46%;
+}
+
+.child2{
+    display: block;
+}
+
+.img1st{
+    width: 5%;
+    position: relative;
+    left: 20%;
+}
+
+.img1st2{
+    width: 5%;
+    position: relative;
+    left: 6%
+}
+
+.img1st-h3{
+    position: relative;
+    left: 22% ;
+}
+
+.child2firstchild{
+    display: flex;
+}
+
+.child2secondchild{
+    display: flex;
+
+}
+
+.btn{
+    position: relative;
+    left: 36%;
+    margin-right: 3%;
+    width: 7%;
+    height: 37px;
+    color: #FFFFFF;
+    background-color: rgb(37, 123, 235);
+    border-radius: 12px;
+    border: transparent;
+}
+.text{
+    position: relative;
+    left:  8% ;
+}
